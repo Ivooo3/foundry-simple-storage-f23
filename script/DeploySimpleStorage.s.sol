@@ -23,3 +23,7 @@ contract DeploySimpleStorage is Script {
 //cast --to-base 0x714c2 dec
 //result : 464066
 //Converts a number of one base to another
+
+//          contract address(get it after forge)        method to be executed
+//cast send 0x5FbDB2315678afecb367f032d93F642f64180aa3 "store(uint256)" 123 --rpc-url $RPC_URL --private-key $PRIVATE_KEY
+// this way we can interact with our smart contracts
