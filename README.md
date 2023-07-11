@@ -1,6 +1,6 @@
 # Learned with this contract :
-- Setup foundry
-- Start foundry with ```anvil``` command
+- Create foundry project with ```forge --init```
+- Start foundry with ```anvil``` command ()
 - Create ```DeploySimpleStorage.s.sol``` script to deploy ```SimpleStorage.sol``` contract
 - Create ```.env``` file to contains key/value variables (do not put real ```Private key``` in there!)
   - use ```source .env``` command to load the variables
@@ -25,3 +25,6 @@
     ```
     cast --to-base 0x0000000000000000000000000000000000000000000000000000000000000309 dec 
     ```
+- ```anvil``` - deploy local blockchain
+- ```forge``` - compiling and interactive with contracts
+- ```cast``` - interacting with contracts already deployed
